@@ -1,0 +1,210 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**@import "compass/reset";**/
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**@import "compass/reset";**/
+/* line 2, ../sass/_layout.scss */
+body {
+  background: red;
+}
+
+/*.parallax
+{
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.parallax__layer-base
+{
+    transform: translateZ(0);
+}
+.parallax__layer-back
+{
+    transform: translateZ(-1px);
+}
+
+
+*/
+/* line 42, ../sass/main.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 50, ../sass/main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* line 62, ../sass/main.scss */
+.slides {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  transform-style: inherit;
+}
+
+/* line 70, ../sass/main.scss */
+.slides:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 81, ../sass/main.scss */
+.slides, .slides:before {
+  background: 50% 50% / cover;
+  margin: 0;
+}
+
+/* line 87, ../sass/main.scss */
+.slide1:before {
+  background: url("../img/train.png") center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+/* line 99, ../sass/main.scss */
+.slide2 {
+  background: url("../img/valley.png") center no-repeat;
+}
+
+/* line 104, ../sass/main.scss */
+.slide3:before {
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  background: url("../img/beach.png") center no-repeat;
+}
+
+/* line 111, ../sass/main.scss */
+.slide4 {
+  background: url("../img/house.png") center no-repeat;
+}
+
+/*.parallax
+{
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.parallax__layer-base
+{
+    transform: translateZ(0);
+}
+.parallax__layer-back
+{
+    transform: translateZ(-1px);
+}
+
+
+*/
+/* line 42, ../sass/main.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 50, ../sass/main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* line 62, ../sass/main.scss */
+.slides {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  transform-style: inherit;
+}
+
+/* line 70, ../sass/main.scss */
+.slides:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 81, ../sass/main.scss */
+.slides, .slides:before {
+  background: 50% 50% / cover;
+  margin: 0;
+}
+
+/* line 87, ../sass/main.scss */
+.slide1:before {
+  background: url("../img/train.png") center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+/* line 99, ../sass/main.scss */
+.slide2 {
+  background: url("../img/valley.png") center no-repeat;
+}
+
+/* line 104, ../sass/main.scss */
+.slide3:before {
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  background: url("../img/beach.png") center no-repeat;
+}
+
+/* line 111, ../sass/main.scss */
+.slide4 {
+  background: url("../img/house.png") center no-repeat;
+}

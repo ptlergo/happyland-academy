@@ -1,0 +1,173 @@
+body,html{
+    height: 100%;
+}
+
+
+.parallax
+{
+    .slides
+    {
+        background-position: center center;
+        background-attachment: fixed;
+
+        height: 100vh;
+
+        &:nth-child(2n)
+        {
+            box-shadow: inset 0 0 .5em #585858;
+        }
+    }
+}
+
+/*each slide/section*/
+.slide_programs
+{
+    background: url("../img/doodle1.png");
+    background-size: 100% 95%;
+
+
+}
+
+.slide_activities
+{
+    background: url("../img/school.png") repeat;
+
+}
+
+.slide_enrollment
+{
+    background: url("../img/photography.png") repeat;
+}
+
+.slide_about
+{
+    background: url("../img/giftly.png") repeat;
+}
+
+h1, h2, h3, span, p
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: "Unkempt" arial;
+}
+
+
+.table
+{
+    display: table;
+    margin: 7% auto;
+    margin-left: 20%;
+    padding: 0;
+}
+
+.box
+{
+padding: 0;
+margin: 0% auto;
+list-style-type: none;
+text-align: left;
+li{
+    float: left;
+    width: 215px;
+    height: 215px;
+    border-radius: 360px;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    margin: 40px;
+    cursor:  pointer;
+}
+
+li:nth-child(even)
+{
+    margin: 28% 0% 0% 0%;
+
+}
+
+}
+
+img[alt="toyblocks"], img[alt="form"]
+{
+    width: 100%;
+
+}
+
+
+.toyblocks
+{
+    position: relative;
+    bottom: -55%;
+    left: 0;
+    max-width: 100%;
+    width: 40%;
+    height: 0%;
+    z-index: 0;
+}
+
+.thumb_form
+{
+    width:45%;
+    margin: 0 auto;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+
+h2
+{
+   position: relative;
+   top:-55px;
+   font-size: 2.1em;
+}
+
+h3
+{
+    font-size: 1.5em;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.step1 h2, .step1 h3
+{
+    color: #87E293;
+}.step2 h2, .step2 h3
+{
+    color: #FFCC00;
+}.step3 h2, .step3 h3
+{
+    color: #732C7B;
+}.step4 h2, .step4 h3
+{
+    color: #CC0000;
+}
+
+span
+{
+    display: table;
+    position: relative;
+    top:-5em;
+    font-size: 1.2em;
+    font-weight: 900;
+    opacity: 0;
+
+
+}
+
+li:hover
+{
+            background: #fbf7eb;
+
+}
+/*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
+li:hover [class^="thumb_"]
+{
+    opacity: .08;
+}
+/*display info in hidden span*/
+li:hover span
+{
+    opacity: 1;
+}
+
+
