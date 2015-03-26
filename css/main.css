@@ -80,34 +80,51 @@ body, html {
 /*each slide/section*/
 /* line 23, ../sass/_layout.scss */
 .slide_programs {
-  background: url("../img/doodle1.png");
-  background-size: 100% 95%;
-}
-
-/* line 31, ../sass/_layout.scss */
-.slide_activities {
-  background: url("../img/school.png") repeat;
-}
-
-/* line 37, ../sass/_layout.scss */
-.slide_enrollment {
-  background: url("../img/photography.png") repeat;
-}
-
-/* line 42, ../sass/_layout.scss */
-.slide_about {
   background: url("../img/giftly.png") repeat;
 }
 
-/* line 47, ../sass/_layout.scss */
-h1, h2, h3, span, p {
+/* line 30, ../sass/_layout.scss */
+.slide_activities {
+  background: url("../img/photography.png") repeat;
+}
+
+/* line 36, ../sass/_layout.scss */
+.slide_enrollment {
+  background: url("../img/school.png") repeat;
+}
+
+/* line 41, ../sass/_layout.scss */
+.slide_about {
+  background: url("../img/geometry.png") repeat;
+}
+
+/* line 46, ../sass/_layout.scss */
+h1, h2, h3, h4, span, p {
   text-align: center;
   font-weight: bold;
   font-size: 4em;
   font-family: "Unkempt" arial;
 }
 
-/* line 56, ../sass/_layout.scss */
+/* line 54, ../sass/_layout.scss */
+h4 {
+  position: relative;
+  top: 150px;
+}
+
+/* line 60, ../sass/_layout.scss */
+p {
+  text-align: left;
+  font-size: 1.4em;
+  z-index: 1;
+  position: relative;
+  top: 200px;
+  width: 80%;
+  left: 10%;
+  color: white;
+}
+
+/* line 72, ../sass/_layout.scss */
 .table {
   display: table;
   margin: 7% auto;
@@ -115,14 +132,14 @@ h1, h2, h3, span, p {
   padding: 0;
 }
 
-/* line 64, ../sass/_layout.scss */
+/* line 80, ../sass/_layout.scss */
 .box {
   padding: 0;
   margin: 0% auto;
   list-style-type: none;
   text-align: left;
 }
-/* line 70, ../sass/_layout.scss */
+/* line 86, ../sass/_layout.scss */
 .box li {
   float: left;
   width: 215px;
@@ -133,17 +150,27 @@ h1, h2, h3, span, p {
   margin: 40px;
   cursor: pointer;
 }
-/* line 81, ../sass/_layout.scss */
+/* line 97, ../sass/_layout.scss */
 .box li:nth-child(even) {
   margin: 28% 0% 0% 0%;
 }
 
-/* line 89, ../sass/_layout.scss */
-img[alt="toyblocks"], img[alt="form"] {
+/* line 105, ../sass/_layout.scss */
+img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"] {
   width: 100%;
 }
 
-/* line 96, ../sass/_layout.scss */
+/* line 111, ../sass/_layout.scss */
+.chalkboard {
+  position: relative;
+  width: 35%;
+  background: white;
+  top: -5%;
+  left: 1%;
+  height: 0%;
+}
+
+/* line 122, ../sass/_layout.scss */
 .toyblocks {
   position: relative;
   bottom: -55%;
@@ -154,7 +181,7 @@ img[alt="toyblocks"], img[alt="form"] {
   z-index: 0;
 }
 
-/* line 107, ../sass/_layout.scss */
+/* line 133, ../sass/_layout.scss */
 .thumb_form {
   width: 45%;
   margin: 0 auto;
@@ -162,41 +189,41 @@ img[alt="toyblocks"], img[alt="form"] {
   opacity: .8;
 }
 
-/* line 117, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 h2 {
   position: relative;
   top: -55px;
   font-size: 2.1em;
 }
 
-/* line 124, ../sass/_layout.scss */
+/* line 151, ../sass/_layout.scss */
 h3 {
   font-size: 1.5em;
   margin-top: 5%;
   padding: 0;
 }
 
-/* line 131, ../sass/_layout.scss */
+/* line 158, ../sass/_layout.scss */
 .step1 h2, .step1 h3 {
   color: #87E293;
 }
 
-/* line 134, ../sass/_layout.scss */
+/* line 161, ../sass/_layout.scss */
 .step2 h2, .step2 h3 {
   color: #FFCC00;
 }
 
-/* line 137, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 .step3 h2, .step3 h3 {
   color: #732C7B;
 }
 
-/* line 140, ../sass/_layout.scss */
+/* line 167, ../sass/_layout.scss */
 .step4 h2, .step4 h3 {
   color: #CC0000;
 }
 
-/* line 145, ../sass/_layout.scss */
+/* line 172, ../sass/_layout.scss */
 span {
   display: table;
   position: relative;
@@ -206,19 +233,19 @@ span {
   opacity: 0;
 }
 
-/* line 157, ../sass/_layout.scss */
+/* line 184, ../sass/_layout.scss */
 li:hover {
   background: #fbf7eb;
 }
 
 /*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
-/* line 163, ../sass/_layout.scss */
+/* line 190, ../sass/_layout.scss */
 li:hover [class^="thumb_"] {
   opacity: .08;
 }
 
 /*display info in hidden span*/
-/* line 168, ../sass/_layout.scss */
+/* line 195, ../sass/_layout.scss */
 li:hover span {
   opacity: 1;
 }

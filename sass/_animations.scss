@@ -1,0 +1,30 @@
+
+span
+{
+    display: table;
+    position: relative;
+    top:-5em;
+    font-size: 1.2em;
+    font-weight: 900;
+    opacity: 0;
+
+
+}
+
+li:hover
+{
+            background: #fbf7eb;
+
+}
+/*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
+li:hover [class^="thumb_"]
+{
+    opacity: .08;
+}
+/*display info in hidden span*/
+li:hover span
+{
+    opacity: 1;
+}
+
+

@@ -1,0 +1,37 @@
+img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"]
+{
+    width: 100%;
+
+}
+
+.chalkboard
+{
+    position: relative;
+    width: 35%;
+    background: white;
+    top: -5%;
+    left: 1%;
+    height: 0%;
+}
+
+
+.toyblocks
+{
+    position: relative;
+    bottom: -55%;
+    left: 0;
+    max-width: 100%;
+    width: 40%;
+    height: 0%;
+    z-index: 0;
+}
+
+.thumb_form
+{
+    width:45%;
+    margin: 0 auto;
+    z-index: -1;
+    opacity: .8;
+
+}
+

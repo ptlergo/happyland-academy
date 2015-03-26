@@ -1,0 +1,53 @@
+h1, h2, h3, h4, span, p
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: "Unkempt" arial;
+}
+
+h4
+{
+    position: relative;
+    top: 150px;
+}
+
+p
+{
+    text-align: left;
+    font-size: 1.4em;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    width: 80%;
+    left: 10%;
+    color: white;
+}
+
+h2
+{
+   position: relative;
+   top:-55px;
+   font-size: 2.1em;
+}
+
+h3
+{
+    font-size: 1.5em;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.step1 h2, .step1 h3
+{
+    color: #87E293;
+}.step2 h2, .step2 h3
+{
+    color: #FFCC00;
+}.step3 h2, .step3 h3
+{
+    color: #732C7B;
+}.step4 h2, .step4 h3
+{
+    color: #CC0000;
+}
