@@ -1,16 +1,18 @@
-img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"]
+img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"],
+img[alt="contactus"],img[alt="activities"], img[alt="calendar"]
 {
     width: 100%;
+    height: auto;
 
 }
 
 .chalkboard
 {
     position: relative;
-    width: 35%;
+    width: 50%;
     background: white;
-    top: -5%;
-    left: 1%;
+    top: -3%;
+    left: 25%;
     height: 0%;
 }
 
@@ -19,13 +21,39 @@ img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"]
 {
     position: relative;
     bottom: -55%;
-    left: 0;
+    left: 1%;
     max-width: 100%;
     width: 40%;
     height: 0%;
-    z-index: 0;
 }
 
+.toyblocks_con
+{
+    position: relative;
+    bottom: -45%;
+    left: 1%;
+    max-width: 100%;
+    width: 60%;
+    height: 0%;
+
+}
+
+.toyblocks_ac
+{
+    position: relative;
+    bottom: -85%;
+    left: 1%;
+    max-width: 100%;
+    width: 60%;
+    height: 0%;
+
+}
+
+/*.toyblocks_new:first-child
+{
+        bottom: -80%;
+}
+*/
 .thumb_form
 {
     width:45%;
@@ -34,4 +62,6 @@ img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"]
     opacity: .8;
 
 }
+
+
 

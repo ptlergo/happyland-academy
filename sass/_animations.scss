@@ -11,7 +11,13 @@ span
 
 }
 
-li:hover
+.sticker span
+{
+	top: 8em;
+	opacity: 1;
+}
+
+li:hover, .sticker:hover
 {
             background: #fbf7eb;
 

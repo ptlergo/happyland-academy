@@ -1,3 +1,5 @@
+
+
 body,html{
     height: 100%;
 }
@@ -74,33 +76,15 @@ li:nth-child(even)
 
 }
 
-
-span
-{
-    display: table;
-    position: relative;
-    top:-5em;
-    font-size: 1.2em;
-    font-weight: 900;
-    opacity: 0;
-
-
-}
-
-li:hover
-{
-            background: #fbf7eb;
-
-}
-/*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
-li:hover [class^="thumb_"]
-{
-    opacity: .08;
-}
-/*display info in hidden span*/
-li:hover span
-{
-    opacity: 1;
+.sticker{
+    float: left;
+    width: 320px;
+    height: 320px;
+    border-radius: 360px;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    margin: 40px;
+    cursor:  pointer;
 }
 
 

@@ -61,44 +61,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, ../sass/_layout.scss */
-body, html {
-  height: 100%;
-}
-
-/* line 8, ../sass/_layout.scss */
-.parallax .slides {
-  background-position: center center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-/* line 15, ../sass/_layout.scss */
-.parallax .slides:nth-child(2n) {
-  box-shadow: inset 0 0 .5em #585858;
-}
-
-/*each slide/section*/
-/* line 23, ../sass/_layout.scss */
-.slide_programs {
-  background: url("../img/giftly.png") repeat;
-}
-
-/* line 30, ../sass/_layout.scss */
-.slide_activities {
-  background: url("../img/photography.png") repeat;
-}
-
-/* line 36, ../sass/_layout.scss */
-.slide_enrollment {
-  background: url("../img/school.png") repeat;
-}
-
-/* line 41, ../sass/_layout.scss */
-.slide_about {
-  background: url("../img/geometry.png") repeat;
-}
-
-/* line 46, ../sass/_layout.scss */
+/* line 1, ../sass/_fonts.scss */
 h1, h2, h3, h4, span, p {
   text-align: center;
   font-weight: bold;
@@ -106,13 +69,13 @@ h1, h2, h3, h4, span, p {
   font-family: "Unkempt" arial;
 }
 
-/* line 54, ../sass/_layout.scss */
+/* line 9, ../sass/_fonts.scss */
 h4 {
   position: relative;
   top: 150px;
 }
 
-/* line 60, ../sass/_layout.scss */
+/* line 15, ../sass/_fonts.scss */
 p {
   text-align: left;
   font-size: 1.4em;
@@ -124,7 +87,138 @@ p {
   color: white;
 }
 
-/* line 72, ../sass/_layout.scss */
+/* line 27, ../sass/_fonts.scss */
+h2 {
+  position: relative;
+  top: -55px;
+  font-size: 2.1em;
+}
+
+/* line 34, ../sass/_fonts.scss */
+h3 {
+  font-size: 1.5em;
+  margin-top: 5%;
+  padding: 0;
+}
+
+/* line 41, ../sass/_fonts.scss */
+.step1 h2, .step1 h3 {
+  color: #87E293;
+}
+
+/* line 44, ../sass/_fonts.scss */
+.step2 h2, .step2 h3 {
+  color: #FFCC00;
+}
+
+/* line 47, ../sass/_fonts.scss */
+.step3 h2, .step3 h3 {
+  color: #732C7B;
+}
+
+/* line 50, ../sass/_fonts.scss */
+.step4 h2, .step4 h3 {
+  color: #CC0000;
+}
+
+/* line 1, ../sass/_images.scss */
+img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"],
+img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
+  width: 100%;
+  height: auto;
+}
+
+/* line 9, ../sass/_images.scss */
+.chalkboard {
+  position: relative;
+  width: 50%;
+  background: white;
+  top: -3%;
+  left: 25%;
+  height: 0%;
+}
+
+/* line 20, ../sass/_images.scss */
+.toyblocks {
+  position: relative;
+  bottom: -55%;
+  left: 1%;
+  max-width: 100%;
+  width: 40%;
+  height: 0%;
+}
+
+/* line 30, ../sass/_images.scss */
+.toyblocks_con {
+  position: relative;
+  bottom: -45%;
+  left: 1%;
+  max-width: 100%;
+  width: 60%;
+  height: 0%;
+}
+
+/* line 41, ../sass/_images.scss */
+.toyblocks_ac {
+  position: relative;
+  bottom: -85%;
+  left: 1%;
+  max-width: 100%;
+  width: 60%;
+  height: 0%;
+}
+
+/*.toyblocks_new:first-child
+{
+        bottom: -80%;
+}
+*/
+/* line 57, ../sass/_images.scss */
+.thumb_form {
+  width: 45%;
+  margin: 0 auto;
+  z-index: -1;
+  opacity: .8;
+}
+
+/* line 3, ../sass/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 10, ../sass/_layout.scss */
+.parallax .slides {
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+/* line 17, ../sass/_layout.scss */
+.parallax .slides:nth-child(2n) {
+  box-shadow: inset 0 0 .5em #585858;
+}
+
+/*each slide/section*/
+/* line 25, ../sass/_layout.scss */
+.slide_programs {
+  background: url("../img/giftly.png") repeat;
+}
+
+/* line 30, ../sass/_layout.scss */
+.slide_activities {
+  background: url("../img/photography.png") repeat;
+}
+
+/* line 35, ../sass/_layout.scss */
+.slide_enrollment {
+  background: url("../img/school.png") repeat;
+}
+
+/* line 40, ../sass/_layout.scss */
+.slide_about {
+  background: url("../img/geometry.png") repeat;
+}
+
+/* line 46, ../sass/_layout.scss */
 .table {
   display: table;
   margin: 7% auto;
@@ -132,14 +226,14 @@ p {
   padding: 0;
 }
 
-/* line 80, ../sass/_layout.scss */
+/* line 54, ../sass/_layout.scss */
 .box {
   padding: 0;
   margin: 0% auto;
   list-style-type: none;
   text-align: left;
 }
-/* line 86, ../sass/_layout.scss */
+/* line 60, ../sass/_layout.scss */
 .box li {
   float: left;
   width: 215px;
@@ -150,80 +244,24 @@ p {
   margin: 40px;
   cursor: pointer;
 }
-/* line 97, ../sass/_layout.scss */
+/* line 71, ../sass/_layout.scss */
 .box li:nth-child(even) {
   margin: 28% 0% 0% 0%;
 }
 
-/* line 105, ../sass/_layout.scss */
-img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"] {
-  width: 100%;
+/* line 79, ../sass/_layout.scss */
+.sticker {
+  float: left;
+  width: 320px;
+  height: 320px;
+  border-radius: 360px;
+  box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+  background: #e3c775;
+  margin: 40px;
+  cursor: pointer;
 }
 
-/* line 111, ../sass/_layout.scss */
-.chalkboard {
-  position: relative;
-  width: 35%;
-  background: white;
-  top: -5%;
-  left: 1%;
-  height: 0%;
-}
-
-/* line 122, ../sass/_layout.scss */
-.toyblocks {
-  position: relative;
-  bottom: -55%;
-  left: 0;
-  max-width: 100%;
-  width: 40%;
-  height: 0%;
-  z-index: 0;
-}
-
-/* line 133, ../sass/_layout.scss */
-.thumb_form {
-  width: 45%;
-  margin: 0 auto;
-  z-index: -1;
-  opacity: .8;
-}
-
-/* line 144, ../sass/_layout.scss */
-h2 {
-  position: relative;
-  top: -55px;
-  font-size: 2.1em;
-}
-
-/* line 151, ../sass/_layout.scss */
-h3 {
-  font-size: 1.5em;
-  margin-top: 5%;
-  padding: 0;
-}
-
-/* line 158, ../sass/_layout.scss */
-.step1 h2, .step1 h3 {
-  color: #87E293;
-}
-
-/* line 161, ../sass/_layout.scss */
-.step2 h2, .step2 h3 {
-  color: #FFCC00;
-}
-
-/* line 164, ../sass/_layout.scss */
-.step3 h2, .step3 h3 {
-  color: #732C7B;
-}
-
-/* line 167, ../sass/_layout.scss */
-.step4 h2, .step4 h3 {
-  color: #CC0000;
-}
-
-/* line 172, ../sass/_layout.scss */
+/* line 2, ../sass/_animations.scss */
 span {
   display: table;
   position: relative;
@@ -233,19 +271,25 @@ span {
   opacity: 0;
 }
 
-/* line 184, ../sass/_layout.scss */
-li:hover {
+/* line 14, ../sass/_animations.scss */
+.sticker span {
+  top: 8em;
+  opacity: 1;
+}
+
+/* line 20, ../sass/_animations.scss */
+li:hover, .sticker:hover {
   background: #fbf7eb;
 }
 
 /*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
-/* line 190, ../sass/_layout.scss */
+/* line 26, ../sass/_animations.scss */
 li:hover [class^="thumb_"] {
   opacity: .08;
 }
 
 /*display info in hidden span*/
-/* line 195, ../sass/_layout.scss */
+/* line 31, ../sass/_animations.scss */
 li:hover span {
   opacity: 1;
 }
