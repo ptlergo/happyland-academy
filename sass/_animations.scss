@@ -1,36 +1,27 @@
 
-span
-{
-    display: table;
-    position: relative;
-    top:-5em;
-    font-size: 1.2em;
-    font-weight: 900;
-    opacity: 0;
-
+span {
+  display: table;
+  position: relative;
+  top: -5em;
+  font-size: 1.2em;
+  font-weight: 900;
+  opacity: 0;
 
 }
 
-.sticker span
-{
-	top: 8em;
-	opacity: 1;
-}
-
-li:hover, .sticker:hover
-{
-            background: #fbf7eb;
+li:hover, .sticker:hover, .contact_sticker1:hover, .contact_sticker2:hover {
+  background: #fbf7eb;
 
 }
+
 /*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
-li:hover [class^="thumb_"]
-{
-    opacity: .08;
+li:hover [class^="thumb_"] {
+  opacity: .08;
 }
+
 /*display info in hidden span*/
-li:hover span
-{
-    opacity: 1;
+li:hover span {
+  opacity: 1;
 }
 
 

@@ -27,35 +27,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 22, ../sass/_cssreset.scss */
+/* line 23, ../sass/_cssreset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 26, ../sass/_cssreset.scss */
+/* line 28, ../sass/_cssreset.scss */
 body {
   line-height: 1;
 }
 
-/* line 29, ../sass/_cssreset.scss */
+/* line 32, ../sass/_cssreset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 32, ../sass/_cssreset.scss */
+/* line 36, ../sass/_cssreset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 35, ../sass/_cssreset.scss */
+/* line 40, ../sass/_cssreset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 40, ../sass/_cssreset.scss */
+/* line 46, ../sass/_cssreset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -69,13 +69,13 @@ h1, h2, h3, h4, span, p {
   font-family: "Unkempt" arial;
 }
 
-/* line 9, ../sass/_fonts.scss */
+/* line 8, ../sass/_fonts.scss */
 h4 {
   position: relative;
   top: 150px;
 }
 
-/* line 15, ../sass/_fonts.scss */
+/* line 13, ../sass/_fonts.scss */
 p {
   text-align: left;
   font-size: 1.4em;
@@ -87,48 +87,65 @@ p {
   color: white;
 }
 
-/* line 27, ../sass/_fonts.scss */
+/* line 24, ../sass/_fonts.scss */
+.location {
+  position: relative;
+  color: black;
+  left: 0;
+  top: 2em;
+  max-width: 20%;
+}
+
+/* line 32, ../sass/_fonts.scss */
 h2 {
   position: relative;
   top: -55px;
   font-size: 2.1em;
 }
 
-/* line 34, ../sass/_fonts.scss */
+/* line 38, ../sass/_fonts.scss */
 h3 {
   font-size: 1.5em;
   margin-top: 5%;
   padding: 0;
 }
 
-/* line 41, ../sass/_fonts.scss */
+/* line 44, ../sass/_fonts.scss */
 .step1 h2, .step1 h3 {
   color: #87E293;
 }
 
-/* line 44, ../sass/_fonts.scss */
+/* line 48, ../sass/_fonts.scss */
 .step2 h2, .step2 h3 {
   color: #FFCC00;
 }
 
-/* line 47, ../sass/_fonts.scss */
+/* line 52, ../sass/_fonts.scss */
 .step3 h2, .step3 h3 {
   color: #732C7B;
 }
 
-/* line 50, ../sass/_fonts.scss */
+/* line 56, ../sass/_fonts.scss */
 .step4 h2, .step4 h3 {
   color: #CC0000;
 }
 
 /* line 1, ../sass/_images.scss */
 img[alt="toyblocks"], img[alt="form"], img[alt="chalkboard"],
-img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
+img[alt="contactus"], img[alt="activities"], img[alt="welcome"] {
   width: 100%;
   height: auto;
 }
 
-/* line 9, ../sass/_images.scss */
+/* line 8, ../sass/_images.scss */
+.welcome {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  top: 10%;
+}
+
+/* line 15, ../sass/_images.scss */
 .chalkboard {
   position: relative;
   width: 50%;
@@ -138,7 +155,7 @@ img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
   height: 0%;
 }
 
-/* line 20, ../sass/_images.scss */
+/* line 24, ../sass/_images.scss */
 .toyblocks {
   position: relative;
   bottom: -55%;
@@ -148,14 +165,12 @@ img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
   height: 0%;
 }
 
-/* line 30, ../sass/_images.scss */
+/* line 33, ../sass/_images.scss */
 .toyblocks_con {
-  position: relative;
-  bottom: -45%;
-  left: 1%;
+  float: left;
+  margin: -15% 0 0 0;
   max-width: 100%;
-  width: 60%;
-  height: 0%;
+  width: 70%;
 }
 
 /* line 41, ../sass/_images.scss */
@@ -173,7 +188,7 @@ img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
         bottom: -80%;
 }
 */
-/* line 57, ../sass/_images.scss */
+/* line 56, ../sass/_images.scss */
 .thumb_form {
   width: 45%;
   margin: 0 auto;
@@ -181,84 +196,122 @@ img[alt="contactus"], img[alt="activities"], img[alt="calendar"] {
   opacity: .8;
 }
 
-/* line 3, ../sass/_layout.scss */
+/* line 2, ../sass/_layout.scss */
 body, html {
   height: 100%;
 }
 
-/* line 10, ../sass/_layout.scss */
+/* line 7, ../sass/_layout.scss */
 .parallax .slides {
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
 }
-/* line 17, ../sass/_layout.scss */
+/* line 13, ../sass/_layout.scss */
 .parallax .slides:nth-child(2n) {
   box-shadow: inset 0 0 .5em #585858;
 }
 
 /*each slide/section*/
-/* line 25, ../sass/_layout.scss */
+/* line 20, ../sass/_layout.scss */
 .slide_programs {
   background: url("../img/giftly.png") repeat;
 }
 
-/* line 30, ../sass/_layout.scss */
+/* line 24, ../sass/_layout.scss */
 .slide_activities {
   background: url("../img/photography.png") repeat;
 }
 
-/* line 35, ../sass/_layout.scss */
+/* line 28, ../sass/_layout.scss */
 .slide_enrollment {
   background: url("../img/school.png") repeat;
 }
 
-/* line 40, ../sass/_layout.scss */
+/* line 32, ../sass/_layout.scss */
 .slide_about {
   background: url("../img/geometry.png") repeat;
 }
 
-/* line 46, ../sass/_layout.scss */
-.table {
-  display: table;
-  margin: 7% auto;
-  margin-left: 20%;
-  padding: 0;
-}
-
-/* line 54, ../sass/_layout.scss */
-.box {
-  padding: 0;
-  margin: 0% auto;
-  list-style-type: none;
-  text-align: left;
-}
-/* line 60, ../sass/_layout.scss */
-.box li {
-  float: left;
-  width: 215px;
-  height: 215px;
-  border-radius: 360px;
-  box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
-  background: #e3c775;
-  margin: 40px;
-  cursor: pointer;
-}
-/* line 71, ../sass/_layout.scss */
-.box li:nth-child(even) {
-  margin: 28% 0% 0% 0%;
-}
-
-/* line 79, ../sass/_layout.scss */
+/* line 36, ../sass/_layout.scss */
 .sticker {
-  float: left;
-  width: 320px;
-  height: 320px;
-  border-radius: 360px;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  border-radius: 22.5em;
   box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
   background: #e3c775;
-  margin: 40px;
+  margin: -25% 7%;
   cursor: pointer;
+}
+
+/* line 47, ../sass/_layout.scss */
+.sticker span {
+  opacity: 1;
+  margin: 0 auto;
+  font-size: 1.5em;
+  top: 1.3em;
+}
+
+/* line 55, ../sass/_layout.scss */
+.about1, .about2 {
+  position: relative;
+  left: 25%;
+  top: 15%;
+  display: block;
+  float: left;
+}
+/* line 62, ../sass/_layout.scss */
+.about1 p, .about2 p {
+  text-align: center;
+  margin-top: -30%;
+}
+
+/* line 68, ../sass/_layout.scss */
+.about1 p, .about2 p {
+  margin: -50% 0%;
+}
+
+/* line 72, ../sass/_layout.scss */
+.contact-form {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  height: 0%;
+  max-width: 80%;
+  margin: 0;
+  padding: 0;
+  height: 0%;
+}
+
+/* line 83, ../sass/_layout.scss */
+.name, .email, .comment {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 1px #3A539B;
+  border-radius: 5px;
+  padding: 1em 0 0 0;
+  margin-top: 1em;
+  text-indent: 1em;
+  margin-right: 0;
+}
+
+/* line 95, ../sass/_layout.scss */
+fieldset {
+  max-width: 20%;
+}
+
+/* line 99, ../sass/_layout.scss */
+.comment {
+  padding: 2em 0 2em 0;
+}
+
+/* line 104, ../sass/_layout.scss */
+button {
+  border: none;
+  background: rgba(158, 200, 253, 0.9);
+  box-shadow: 0 0 1px rgba(158, 200, 253, 0.9);
+  max-width: 10%;
 }
 
 /* line 2, ../sass/_animations.scss */
@@ -271,25 +324,180 @@ span {
   opacity: 0;
 }
 
-/* line 14, ../sass/_animations.scss */
-.sticker span {
-  top: 8em;
-  opacity: 1;
-}
-
-/* line 20, ../sass/_animations.scss */
-li:hover, .sticker:hover {
+/* line 12, ../sass/_animations.scss */
+li:hover, .sticker:hover, .contact_sticker1:hover, .contact_sticker2:hover {
   background: #fbf7eb;
 }
 
 /*selects all classes begining with 'thumb_' which is all 4 steps thumbnails*/
-/* line 26, ../sass/_animations.scss */
+/* line 18, ../sass/_animations.scss */
 li:hover [class^="thumb_"] {
   opacity: .08;
 }
 
 /*display info in hidden span*/
-/* line 31, ../sass/_animations.scss */
+/* line 23, ../sass/_animations.scss */
 li:hover span {
   opacity: 1;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media only screen and (max-width: 600px) {
+  /******************************************************************
+  LARGE PHONES
+  ******************************************************************/
+  /* line 10, ../sass/print.scss */
+  .sticker {
+    margin: 50% 0% 0% 25%;
+  }
+
+  /* line 14, ../sass/print.scss */
+  .welcome {
+    width: 100%;
+  }
+
+  /* line 18, ../sass/print.scss */
+  .toyblocks_ac {
+    top: 5%;
+    left: 10%;
+    width: 80%;
+  }
+
+  /* line 24, ../sass/print.scss */
+  img[alt="chalkboard"] {
+    display: none;
+  }
+
+  /* line 28, ../sass/print.scss */
+  .chalkboard p {
+    color: black;
+    width: 100%;
+  }
+
+  /* line 34, ../sass/print.scss */
+  .toyblocks {
+    top: 0;
+    left: 30%;
+  }
+
+  /* line 39, ../sass/print.scss */
+  li {
+    float: left;
+    border: none;
+    width: 50%;
+  }
+
+  /* line 46, ../sass/print.scss */
+  .box {
+    margin-top: 45%;
+  }
+
+  /* line 50, ../sass/print.scss */
+  .toyblocks_con {
+    position: relative;
+    top: -21.250em;
+    left: 5%;
+    width: 80%;
+  }
+
+  /* line 56, ../sass/print.scss */
+  .contact_sticker1, .contact_sticker2 {
+    position: relative;
+    width: 100%;
+    color: #000000;
+    left: -150px;
+    display: none;
+  }
+
+  /* line 64, ../sass/print.scss */
+  .contact-form {
+    max-width: 88%;
+  }
+
+  /* line 69, ../sass/print.scss */
+  fieldset {
+    max-width: 65%;
+  }
+
+  /* line 73, ../sass/print.scss */
+  button {
+    max-width: 45%;
+  }
+
+  /* line 77, ../sass/print.scss */
+  .location {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  /******************************************************************
+  Tablet & Small Desktops,
+  ******************************************************************/
+  /* line 87, ../sass/print.scss */
+  .table {
+    display: table;
+    margin: 7% auto;
+    margin-left: 20%;
+    padding: 0;
+  }
+
+  /* line 94, ../sass/print.scss */
+  .box {
+    padding: 0;
+    margin: 0% auto;
+    list-style-type: none;
+    text-align: left;
+  }
+  /* line 99, ../sass/print.scss */
+  .box li {
+    float: left;
+    width: 13.438em;
+    height: 13.438em;
+    border-radius: 22.5em;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    margin: 2.5em;
+    cursor: pointer;
+  }
+  /* line 110, ../sass/print.scss */
+  .box li:nth-child(even) {
+    margin: 28% 0% 0% 0%;
+  }
+
+  /* line 117, ../sass/print.scss */
+  .contact_sticker1 {
+    position: relative;
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 22.5em;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    cursor: pointer;
+    left: 30%;
+    top: -20em;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 132, ../sass/print.scss */
+  .contact_sticker2 {
+    position: relative;
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 22.5em;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    cursor: pointer;
+    left: 40%;
+    top: -20em;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1030px) {
+  /******************************************************************
+Desktop
+  ******************************************************************/
 }

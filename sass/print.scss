@@ -1,3 +1,154 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+@media only screen and (max-width: 600px) {
+  /******************************************************************
+  LARGE PHONES
+  ******************************************************************/
+
+  .sticker {
+    margin: 50% 0% 0% 25%;
+  }
+
+  .welcome {
+    width: 100%;
+  }
+
+  .toyblocks_ac {
+    top: 5%;
+    left: 10%;
+    width: 80%;
+  }
+
+  img[alt="chalkboard"] {
+    display: none;
+  }
+
+  .chalkboard p {
+    color: black;
+    width: 100%;
+
+  }
+
+  .toyblocks {
+    top: 0;
+    left: 30%;
+  }
+
+  li {
+    float: left;
+    border: none;
+    width: 50%;
+
+  }
+
+  .box {
+    margin-top: 45%;
+  }
+
+  .toyblocks_con {
+    position: relative;
+    top: -21.250em;
+    left: 5%;
+    width: 80%;
+  }
+  .contact_sticker1, .contact_sticker2 {
+    position: relative;
+    width: 100%;
+    color: #000000;
+    left: -150px;
+    display: none;
+  }
+
+  .contact-form {
+    max-width: 88%;
+
+  }
+
+  fieldset {
+    max-width: 65%;
+  }
+
+  button {
+    max-width: 45%;
+  }
+
+  .location {
+    max-width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  /******************************************************************
+  Tablet & Small Desktops,
+  ******************************************************************/
+  .table {
+    display: table;
+    margin: 7% auto;
+    margin-left: 20%;
+    padding: 0;
+  }
+
+  .box {
+    padding: 0;
+    margin: 0% auto;
+    list-style-type: none;
+    text-align: left;
+    li {
+      float: left;
+      width: 13.438em;
+      height: 13.438em;
+      border-radius: 22.5em;
+      box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+      background: #e3c775;
+      margin: 2.5em;
+      cursor: pointer;
+    }
+
+    li:nth-child(even) {
+      margin: 28% 0% 0% 0%;
+
+    }
+
+  }
+
+  .contact_sticker1 {
+    position: relative;
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 22.5em;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    cursor: pointer;
+    left: 30%;
+    top: -20em;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .contact_sticker2 {
+    position: relative;
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 22.5em;
+    box-shadow: 0 0 0 10px rgba(158, 200, 253, 0.9);
+    background: #e3c775;
+    cursor: pointer;
+    left: 40%;
+    top: -20em;
+    margin: 0;
+    padding: 0;
+
+  }
+
+}
+
+@media only screen and (min-width: 1030px) {
+  /******************************************************************
+Desktop
+  ******************************************************************/
+
+}
